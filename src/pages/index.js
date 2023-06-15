@@ -1,8 +1,7 @@
-import About from "./About";
-import Landing from "./Landing";
-import Cocktail from "./Cocktail";
-import NewsLetter from "./NewsLetter";
-import HomeLayout from "./HomeLayout";
-import Error from "./Error";
-
-export { About, Landing, Cocktail, NewsLetter, HomeLayout, Error };
+export { default as Landing } from "./Landing";
+export { default as About } from "./About";
+export { default as Cocktail } from "./Cocktail";
+export { default as NewsLetter } from "./NewsLetter";
+export { default as HomeLayout } from "./HomeLayout";
+export { default as Error } from "./Error";
+export { default as SinglePageError } from "./SinglePageError";
